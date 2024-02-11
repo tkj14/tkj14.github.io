@@ -69,8 +69,7 @@
                 </section>
             </div>
             <div class="carousel-item">
-                <section class="hero"
-                    style="background-image: url(img/bg.png);">
+                <section class="hero" style="background-image: url(img/bg.png);">
                 </section>
             </div>
         </div>
@@ -789,7 +788,7 @@
 
                                     <!-- item template -->
                                     <!-- begin card -->
-                                    <div class="col-auto mb-3">
+                                    <div class="col-auto mb-3" onmouseover="playMusic()" onmouseout="pauseMusic()">
                                         <figure class="card imghvr-slide-up">
                                             <img class="card-img" src="img/tkj1/24.png" alt="24" />
                                             <figcaption class="pt-5">
@@ -1882,6 +1881,10 @@
                         class="fab fa-youtube-square fa-2x"></i></a></li>
         </ul>
     </footer>
+    <audio id="myAudio">
+        <source src="/src/tu-tu-tu-du-max-verstappen.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
 <script>
@@ -1915,6 +1918,15 @@
             clickable: true
         }
     });
+    var audio = document.getElementById("myAudio");
+
+    function playMusic() {
+        audio.play();
+    }
+
+    function pauseMusic() {
+        audio.pause();
+    }
 </script>
 
 </html>
