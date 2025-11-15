@@ -1,0 +1,27 @@
+[
+    {
+        "name": "ISTARIS IRIANE BUDI, S.ST",
+        "subject": "Administrasi Infrastruktur Jaringan",
+        "image": "swiper-slide--one"
+    },
+    {
+        "name": "NAILUL HUDA, S.ST",
+        "subject": "Pemrograman Dasar & Teknologi Layanan Jaringan",
+        "image": "swiper-slide--two"
+    },
+    {
+        "name": "IMAM MUHADI, S.T",
+        "subject": "Teknologi Jaringan Berbasis Luas & PKK",
+        "image": "swiper-slide--three"
+    },
+    {
+        "name": "SAMSUL MUAWAN, S.Pd",
+        "subject": "Komputer dan Jaringan Dasar",
+        "image": "swiper-slide--four"
+    },
+    {
+        "name": "EKA ADI FIRMANDA, S.Pd",
+        "subject": "Administrasi Sistem Jaringan",
+        "image": "swiper-slide--five"
+    }
+]

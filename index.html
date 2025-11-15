@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKJ14 - SMKN 1 Pogalan</title>
+    <link rel="shortcut icon" href="src/tkj14.png" type="image/x-icon">
+
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="#"><img id="logo" class="logo" src="src/tkj14.png" alt=""></a>
+        <nav class="link">
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#guru">Guru</a></li>
+            <li><a href="#murid">Murid</a></li>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="hero-content-area">
+            <h1>Teknik Komputer dan Jaringan</h1>
+            <h3>Program Keahlian Teknik Komputer dan Jaringan, SMKN 1 Pogalan</h3>
+        </div>
+        <div class="carousel-inner background">
+            <div class="carousel-item active">
+                <section class="hero"
+                    style="background-image: url(src/IMG_5293.jpg);">
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="hero"
+                    style="background-image: url(https://cdn.discordapp.com/attachments/1042764643850010655/1140163722988499014/WhatsApp_Image_2023-08-09_at_10.15.57.jpeg?ex=6680f536&is=667fa3b6&hm=eea2b83cfc0845ed1745c11f95408ac6f5f29a71cdfcca73b064793e89d849ed&);">
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="hero"
+                    style="background-image: url(https://cdn.discordapp.com/attachments/1042764643850010655/1140166002093609051/WhatsApp_Image_2023-08-09_at_15.42.w36.jpeg?ex=6680f756&is=667fa5d6&hm=fc8c0cd34933d74b1096caa799b9f7addd58f33454db14736f93cda3a156daa9&);">
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section class="hero" style="background-image: url(img/bg.png);">
+                </section>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section id="about" class="destinations reveal">
+        <h3 class="title">Teknik Komputer dan Jaringan (TKJ)</h3>
+        <p>Teknik Komputer dan Jaringan (disingkat TKJ) merupakan ilmu berbasis Teknologi Informasi dan Komunikasi
+            terkait kemampuan algoritma, dan pemrograman komputer, perakitan komputer, perakitan jaringan komputer, dan
+            pengoperasian perangkat lunak, dan internet. Teknik komputer, dan jaringan juga membutuhkan pemahaman di
+            bidang teknik listrik, dan ilmu komputer sehingga mampu mengembangkan, dan mengintegrasikan perangkat lunak,
+            dan perangkat keras.</p>
+        <hr>
+        <h4 class="title">Mata Pelajaran Keahlian</h4>
+        <br>
+        <!-- Subject cards will be populated by JavaScript -->
+        <ul class="grid" id="subjects-grid"></ul>
+    </section>
+
+    <section id="guru" class="packages reveal">
+        <h3 class="title">Guru Pembimbing</h3>
+        <hr>
+
+        <div class="swiper">
+            <!-- Swiper wrapper will be populated by JavaScript -->
+            <div class="swiper-wrapper"></div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section id="murid" class="testimonials reveal">
+        <h3 class="title">Murid</h3>
+        <hr>
+        <div class="search-wrapper">
+            <input type="text" id="student-search" placeholder="Cari nama murid...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="warpper">
+            <div class="tabs">
+                <label class="tab" id="one-tab" for="one">TKJ 1</label>
+                <label class="tab" id="two-tab" for="two">TKJ 2</label>
+            </div>
+
+            <div class="panels">
+                <div class="panel" id="one-panel">
+                    <article role="article">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1 pt-2">
+                                <!-- Student cards for TKJ 1 will be populated by JavaScript -->
+                                <div class="card-deck cs-cards justify-content-center">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="panel" id="two-panel">
+                    <article role="article">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1 pt-2">
+                                <!-- Student cards for TKJ 2 will be populated by JavaScript -->
+                                <div class="card-deck cs-cards justify-content-center">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Images courtesy of <a href="http://unsplash.com/" target="_blank">unsplash</a>.</p>
+        <p>© Copyright 2023 tkj14 | <a href="https://smkn1pogalan.sch.id/" target="_blank">SMKN 1 Pogalan</a></p>
+        <ul>
+            <li><a href="https://twitter.com/smkn1pogalan" target="_blank"><i
+                        class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="https://www.facebook.com/Smkn1Pogalan" target="_blank"><i
+                        class="fab fa-facebook-square fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/smkn1pogalan/" target="_blank"><i
+                        class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCYxymkoDvybqD7PZOvngr0Q" target="_blank"><i
+                        class="fab fa-youtube-square fa-2x"></i></a></li>
+        </ul>
+    </footer>
+    <audio id="myAudio">
+        <source src="/src/maxverstappen.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Back to top button -->
+    <a href="#" id="back-to-top" class="back-to-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+<!-- Our custom script -->
+<script src="scripts.js"></script>
+
+</html>

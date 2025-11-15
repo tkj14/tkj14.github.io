@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Komputer dan Jaringan Dasar",
+        "description": "Komputer dan Jaringan Dasar adalah ilmu yang mempelajari tentang perangkat keras dan lunak komputer mulai merakit PC, menginstall sistem operasi,mengatur BIOS, menginstall driver peripheral, menganalisa jaringan LAN,WAN dan MAN, mengkonfigurasi IP address, dan merawat jaringan LAN,MAN dan WAN.",
+        "image": "https://images.unsplash.com/photo-1606850028922-d90aba1165c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "alt": "merakit pc",
+        "link": "https://smkn1peusangan.sch.id/blog/materi-komputer-dan-jaringan-dasar/#:~:text=Komputer%20dan%20Jaringan%20Dasar%20adalah,jaringan%20LAN%2CMAN%20dan%20WAN."
+    },
+    {
+        "title": "Pemrograman Dasar",
+        "description": "Pemrograman dasar adalah pembelajaran yang memberikan dasar-dasar logika yang bersifat universal dan mengedepankan pembentukan pola pikir seseorang mengenai membuat suatu program yang efektif dan efisien. Sehingga dasar-dasar universal ini dapat diterapkan pada bahasa pemrograman apa pun, kapan pun, di mana pun.",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "alt": "koding",
+        "link": "https://serupa.id/pemrograman-dasar-konsep-logika-prinsip-langkah/#:~:text=Pemrograman%20dasar%20adalah%20pembelajaran%20yang,kapan%20pun%2C%20di%20mana%20pun."
+    },
+    {
+        "title": "Administrasi Infrastruktur Jaringan",
+        "description": "Administrasi Infrastruktur Jaringan adalah mata pelajaran yang mempelajari tentang pengaturan, konfigurasi dan pengelolaan perangkat jaringan beserta layanan-layanan jaringan menggunakan sistem operasi khusus jaringan seperti RoS dan Switch OS. Juga membahas tentang Infrastruktur jaringan berupa Router dan Switch yang dapat dikonfigurasi.",
+        "image": "https://images.unsplash.com/photo-1606908487894-c7e94a213233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=326&q=80",
+        "alt": "fiber optic",
+        "link": "https://belajar.idseducation.com/course/detail/46/administrasi-infrastruktur-jaringan/#:~:text=Mendidik%20siswa%20memiliki%20pengetahuan%20dasar,menggunakan%20sistem%20operasi%20khusus%20jaringan."
+    },
+    {
+        "title": "Administrasi Sistem Jaringan",
+        "description": "Mata pelajaran Adminsitrasi Sistem Jaringan mempelajari tentang prosedur bagaimana sebuah komputer dapat berperan menjadi server sehingga membutuhkan ketelitian untuk melakukan konfigurasi layanan jaringan yang sesuai prosedur.",
+        "image": "https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "alt": "debian",
+        "link": "http://journal2.um.ac.id/index.php/edcomtech/article/view/12572#:~:text=Mata%20pelajaran%20Adminsitrasi%20Sistem%20Jaringan,layanan%20jaringan%20yang%20sesuai%20prosedur."
+    },
+    {
+        "title": "Teknologi Jaringan Berbasis Luas",
+        "description": "Jaringan area luas (WAN) merupakan jaringan komputer yang mencakup area yang besar sebagai contoh yaitu jaringan komputer antar wilayah, kota atau bahkan negara, atau dapat didefinisikan juga sebagai jaringan komputer yang membutuhkan router dan saluran komunikasi publik.",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+        "alt": "bumi",
+        "link": "https://id.wikipedia.org/wiki/Jaringan_area_luas"
+    },
+    {
+        "title": "Teknologi Layanan Jaringan",
+        "description": "Teknologi layanan jaringan merupakan sebuah sistem yang dirancang untuk melayani pengguna yang memakai berbagai jenis perangkat. Tujuannya adalah untuk membangun serta merancang agar seluruhnya berjalan efektif dan sesuai kebutuhan dari setiap user.",
+        "image": "https://images.unsplash.com/photo-1557174360-3f4f7c724501?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "alt": "bts",
+        "link": "https://ayoguruberbagi.kemdikbud.go.id/rpp/teknologi-layanan-jaringan-15/#:~:text=Teknologi%20layanan%20jaringan%20merupakan%20sebuah,sesuai%20kebutuhan%20dari%20setiap%20user."
+    },
+    {
+        "title": "Simulasi dan Komunikasi Digital",
+        "description": "Simulasi dan Komunikasi Digital adalah pembelajaran dengan pemanfaatan teknologi informasi dan komunikasi melalui pengembangan bahan ajar berbasis web. Simkomdig sendiri mengajarkan bagaimana untuk memecahkan masalah terkait produk/layanan, mencari solusi, dan mengomunikasikan dalam bentuk kolaborasi, sehingga menjadi salah satu life skill.",
+        "image": "https://images.unsplash.com/photo-1595514811159-b876d3e52f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "alt": "virtual reality",
+        "link": "https://maimelajah.com/pengertian-simulasi-dan-komunikasi-digital-simkomdig/"
+    }
+]
